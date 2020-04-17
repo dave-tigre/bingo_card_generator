@@ -77,7 +77,7 @@ def generateTable(terms, pagebreak = True):
     
     return res
 
-basename = 'adult_bingo_card_'
+basename = 'bingo_card_'
 cards = int(sys.argv[3])
 for i in range(cards):
     filename= basename+str(i)+".html"
